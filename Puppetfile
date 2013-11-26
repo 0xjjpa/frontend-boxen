@@ -55,3 +55,10 @@ github "xquartz",    "1.1.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "opera",      "0.3.1"
+github "skype",      "1.0.7"
+github "iterm2",     "1.0.4"
+github "firefox",    "1.1.5"
+github "chrome",     "1.1.2"
+github "hipchat",    "1.0.8"
