@@ -69,8 +69,6 @@ node default {
   include nodejs::v0_10
 
   # default ruby versions
-  include ruby::1_8_7
-  include ruby::1_9_2
   include ruby::1_9_3
   include ruby::2_0_0
 
@@ -95,7 +93,7 @@ node default {
     ]:
   }
 
-  file { "${boxen::config::srcdir}/our-boxen":
+  file { "${boxen::config::srcdir}/frontend-boxen":
     ensure => link,
     target => $boxen::config::repodir
   }
