@@ -74,6 +74,18 @@ node default {
   include ruby::1_9_3
   include ruby::2_0_0
 
+  # comunication
+  include skype
+  include hipchat
+
+  # terminal goodies
+  include iterm2
+
+  # browsers
+  include chrome
+  include firefox
+  include opera
+
   # common, useful packages
   package {
     [
