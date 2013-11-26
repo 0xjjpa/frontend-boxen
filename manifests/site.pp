@@ -77,7 +77,7 @@ node default {
   include hipchat
 
   # terminal goodies
-  include iterm2
+  include iterm2::dev
 
   # browsers
   include chrome
