@@ -91,6 +91,10 @@ node default {
   include sublime_text_3
   include sublime_text_3::package_control
 
+  sublime_text_3::package { 'Jade':
+    source => 'davidrios/jade-tmbundle'
+  }
+
   # common, useful packages
   package {
     [
