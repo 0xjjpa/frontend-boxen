@@ -63,4 +63,5 @@ github "firefox",    "1.1.5"
 github "chrome",     "1.1.2"
 github "hipchat",    "1.0.8"
 github "spotify",    "1.0.1"
-github "sublime_text_3", "1.0.1"
+github "sublime_text_3", "1.0.1", :repo => "jjperezaguinaga/puppet-sublime_text_3"
+
