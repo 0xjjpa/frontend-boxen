@@ -95,6 +95,10 @@ node default {
     source => 'davidrios/jade-tmbundle'
   }
 
+  sublime_text_3::package { 'Sass':
+    source => 'nathos/sass-textmate-bundle'
+  }
+
   # common, useful packages
   package {
     [
