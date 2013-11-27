@@ -78,6 +78,7 @@ node default {
 
   # terminal goodies
   include iterm2::dev
+  include zsh
 
   # browsers
   include chrome
