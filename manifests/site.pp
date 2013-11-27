@@ -91,8 +91,8 @@ node default {
   include sublime_text_3
   include sublime_text_3::package_control
 
-  sublime_text_3::package { 'Theme - Soda':
-    source => 'buymeasoda/soda-theme/'
+  sublime_text_3::package { 'Theme - Wombat':
+    source => 'https://github.com/sheerun/sublime-wombat-theme'
   }
 
   # common, useful packages
