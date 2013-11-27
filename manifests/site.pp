@@ -91,10 +91,6 @@ node default {
   include sublime_text_3
   include sublime_text_3::package_control
 
-  sublime_text_3::package { 'Theme - Soda':
-    source => 'https://github.com/buymeasoda/soda-theme'
-  }
-
   # common, useful packages
   package {
     [
