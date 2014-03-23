@@ -93,6 +93,8 @@ node default {
     source => 'davidrios/jade-tmbundle'
   }
 
+  # TODO: add git_commit_msg
+  
   sublime_text_3::package { 'Sass':
     source => 'nathos/sass-textmate-bundle'
   }
