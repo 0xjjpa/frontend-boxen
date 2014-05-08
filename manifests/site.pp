@@ -89,6 +89,9 @@ node default {
   include sublime_text_3
   include sublime_text_3::package_control
 
+  # puppet
+  include puppet
+
   sublime_text_3::package { 'Jade':
     source => 'davidrios/jade-tmbundle'
   }
